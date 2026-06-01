@@ -1,0 +1,37 @@
+# Registo de comandos - Topico 01
+
+uname -a
+Finalidade: Mostra o kernel, versao e arquitetura do sistema.
+
+lsb_release -a
+Finalidade: Mostra a distribuicao Linux e versao instalada.
+
+whoami
+Finalidade: Mostra o utilizador autenticado.
+
+hostname
+Finalidade: Mostra o nome da maquina.
+
+mkdir -p ~/linux-seguranca-cloud/topico-01/evidencias
+Finalidade: Cria a estrutura de diretorios do projeto.
+
+tree ~/linux-seguranca-cloud
+Finalidade: Lista a estrutura de pastas de forma hierarquica.
+
+sudo apt install tree -y
+Finalidade: Instala o comando tree no sistema.
+
+sudo apt install git -y
+Finalidade: Instala o Git para controlo de versoes.
+
+git init
+Finalidade: Inicializa um repositorio Git local.
+
+git add .
+Finalidade: Adiciona todos os ficheiros ao staging area.
+
+git commit -m "topico-01: estrutura inicial e README"
+Finalidade: Regista as alteracoes no repositorio local.
+
+git push -u origin main
+Finalidade: Envia os ficheiros para o repositorio remoto no GitHub.
