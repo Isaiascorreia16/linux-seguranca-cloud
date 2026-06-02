@@ -1,0 +1,34 @@
+# Registo de comandos - Topico 02
+
+whoami
+Finalidade: Mostra o nome do utilizador atualmente autenticado no sistema.
+
+id
+Finalidade: Mostra o uid, gid e todos os grupos a que o utilizador pertence.
+
+groups
+Finalidade: Lista os nomes de todos os grupos do utilizador atual.
+
+mkdir ~/linux-seguranca-cloud/topico-02-individual/teste-permissoes
+Finalidade: Cria a pasta de teste para aplicar permissoes.
+
+touch publico.txt restrito.txt script.sh
+Finalidade: Cria os ficheiros de teste vazios.
+
+ls -l
+Finalidade: Lista ficheiros com detalhes de permissoes.
+
+chmod 644 publico.txt
+Finalidade: Define permissoes rw-r--r-- — dono escreve, outros so leem.
+
+chmod 640 restrito.txt
+Finalidade: Define permissoes rw-r----- — outros sem acesso.
+
+chmod u+x script.sh
+Finalidade: Adiciona permissao de execucao apenas ao dono.
+
+ssh-keygen
+Finalidade: Gera um par de chaves SSH (publica e privada).
+
+ls -l ~/.ssh
+Finalidade: Confirma os ficheiros de chaves gerados e as suas permissoes.

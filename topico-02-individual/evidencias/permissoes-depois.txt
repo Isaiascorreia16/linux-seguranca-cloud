@@ -1,0 +1,4 @@
+total 0
+-rw-r--r-- 1 vboxuser vboxuser 0 Jun  2 01:11 publico.txt
+-rw-r----- 1 vboxuser vboxuser 0 Jun  2 01:11 restrito.txt
+-rwxrw-r-- 1 vboxuser vboxuser 0 Jun  2 01:11 script.sh
